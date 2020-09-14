@@ -1,3 +1,4 @@
+package ru.itsjava;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

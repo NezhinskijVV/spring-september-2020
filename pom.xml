@@ -6,7 +6,14 @@
 
     <groupId>ru.itsjava</groupId>
     <artifactId>spring-september-2020</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>xml-configuration</module>
+        <module>java-based-annotation</module>
+        <module>annotation-based-configuration</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

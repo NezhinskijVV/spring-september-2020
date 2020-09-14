@@ -1,3 +1,5 @@
+package ru.itsjava;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -5,8 +7,8 @@ public class ItCompany {
 
     public static void main(String[] args) {
 
-//        Computer computer = new Notebook();
-//        Programmer programmer = new Programmer(computer);
+//        ru.itsjava.Computer computer = new ru.itsjava.Notebook();
+//        ru.itsjava.Programmer programmer = new ru.itsjava.Programmer(computer);
 //
 //        System.out.println(programmer);
 

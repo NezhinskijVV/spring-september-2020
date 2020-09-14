@@ -1,7 +1,10 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.mockito.Mockito;
+import ru.itsjava.Computer;
+import ru.itsjava.Programmer;
 
 @DisplayName("Класс Programmer должен:")
 public class ProgrammerTest {
@@ -21,6 +24,8 @@ public class ProgrammerTest {
         Computer computer = Mockito.mock(Computer.class);
         Programmer programmer = new Programmer(computer);
 
+        Mockito.when(computer.getBrand()).thenReturn("Apple");
+        System.out.println(computer.getBrand());
         Assertions.assertNotNull(programmer);
     }
 }

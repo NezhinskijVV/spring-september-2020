@@ -1,4 +1,8 @@
+package ru.itsjava;
 
+import lombok.Data;
+
+@Data
 public class Programmer {
     private Computer computer;
 
@@ -7,7 +11,7 @@ public class Programmer {
     }
 
     public Programmer() {
-        System.out.println("Programmer empty constructor");
+        System.out.println("ru.itsjava.Programmer empty constructor");
     }
 
 

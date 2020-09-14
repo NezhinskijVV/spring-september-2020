@@ -4,22 +4,22 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--    Notebook bean-->
-    <bean id="note" class="Notebook">
+    <!--    ru.Notebook bean-->
+    <bean id="note" class="ru.Notebook">
         <constructor-arg value="Asus"/>
     </bean>
 
-    <bean id="pc" class="PC">
-    </bean>
+<!--    <bean id="pc" class="ru.PC">-->
+<!--    </bean>-->
 
-    <!--    Programmer bean -->
-    <bean id="programmer" class="Programmer">
-        <qualifier type="Notebook"/>
+    <!--    ru.Programmer bean -->
+    <bean id="programmer" class="ru.Programmer">
+        <qualifier type="ru.Notebook"/>
         <constructor-arg ref="note"/>
     </bean>
 
     <!--    BAD PRACTICE-->
-    <!--    <bean id = "programmer" class="Programmer">-->
+    <!--    <bean id = "programmer" class="ru.Programmer">-->
     <!--        <property name="computer" ref="note"/>-->
     <!--    </bean> -->
     <!--    -->
