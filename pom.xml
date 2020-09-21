@@ -11,8 +11,10 @@
 
     <modules>
         <module>xml-configuration</module>
-        <module>java-based-annotation</module>
+        <module>java-based-configuration</module>
         <module>annotation-based-configuration</module>
+        <module>proxy</module>
+        <module>aop</module>
     </modules>
 
     <properties>
